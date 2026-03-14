@@ -5,6 +5,7 @@ import ProjectsPage from './pages/ProjectsPage'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
 import NotFoundPage from './pages/NotFoundPage'
+import ContactPage from "./pages/ContactPage";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="*" element={<NotFoundPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Layout>
   )
