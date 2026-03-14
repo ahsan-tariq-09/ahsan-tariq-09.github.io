@@ -1,4 +1,4 @@
-import type { SiteData } from '../types'
+import type { SiteData } from '../components/types'
 
 export const siteData: SiteData = {
   name: 'Ahsan Tariq',
