@@ -257,58 +257,97 @@ section h1 {
 }
 
 .contact-page {
-  max-width: 800px;
+  max-width: 850px;
   margin: auto;
   padding: 4rem 1.5rem;
 }
 
 .contact-title {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  margin-bottom: 0.75rem;
 }
 
 .contact-description {
-  margin-bottom: 2rem;
   color: var(--muted);
+  margin-bottom: 2rem;
+  max-width: 60ch;
 }
 
-.contact-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.contact-card-list {
+  display: grid;
+  gap: 1rem;
 }
 
-.contact-item {
+.contact-card {
   display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  padding: 1rem;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-}
-
-.contact-actions {
-  display: flex;
-  gap: 0.75rem;
   align-items: center;
-}
-
-.contact-link {
-  color: var(--accent);
+  justify-content: space-between;
+  gap: 1rem;
   text-decoration: none;
-  font-weight: 500;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
-.contact-link:hover {
-  text-decoration: underline;
+.contact-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
 }
 
-.contact-button-small {
-  padding: 0.3rem 0.7rem;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  background: var(--accent);
-  color: white;
+.contact-card-left {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--text);
+}
+
+.contact-label {
+  margin: 0 0 0.2rem;
   font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contact-value {
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.copy-email-btn {
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: white;
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.copy-email-btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.copy-email-btn:active {
+  transform: translateY(0);
+}
+
+:root[data-theme='light'] .copy-email-btn {
+  color: white;
 }
