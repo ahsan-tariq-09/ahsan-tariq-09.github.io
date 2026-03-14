@@ -44,7 +44,7 @@ export const siteData: SiteData = {
         'Concise problem-solving in Python for ARC-AGI benchmark tasks, focused on solving problems with the fewest possible characters.',
       tech: ['Python', 'ARC-AGI'],
       githubUrl:
-        'https://github.com/ahsan-500mbps/neurips-2025-google-code-golf-championship',
+        'https://github.com/ahsan-tariq-09/neurips-2025-google-code-golf-championship',
       featured: true,
     },
     {
@@ -53,7 +53,7 @@ export const siteData: SiteData = {
         'Design and implementation of a Knowledge-Graph-Enhanced Retrieval-Augmented Chatbot System for physical therapy.',
       tech: ['Python', 'RAG', 'Knowledge Graphs'],
       githubUrl:
-        'https://github.com/ahsan-500mbps/KG-RAG-Physio-Chatbot',
+        'https://github.com/ahsan-tariq-09/KG-RAG-Physio-Chatbot',
       featured: true,
     },
     {
@@ -66,6 +66,12 @@ export const siteData: SiteData = {
       title: 'Freshman Guidance Website',
       description:
         'A website to help freshmen with career and course navigation and guidance at Knox College.',
+      tech: ['React', 'TypeScript', 'Planning'],
+    },
+    {
+      title: 'MIPS Assembly Simulator',
+      description:
+        'This project runs a subset of MIPS assembly directly from .asm files with labels and basic .data support.',
       tech: ['React', 'TypeScript', 'Planning'],
     },
   ],
