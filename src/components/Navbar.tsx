@@ -12,7 +12,7 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
     <header className="navbar">
       <div className="container nav-inner">
         <NavLink to="/" className="brand">
-          Ahsan Tariq
+          Ahsan.dev
         </NavLink>
 
         <nav className="nav-links">

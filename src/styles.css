@@ -351,3 +351,29 @@ section h1 {
 :root[data-theme='light'] .copy-email-btn {
   color: white;
 }
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.github-link:hover {
+  opacity: 0.75;
+}
+
+.github-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.live-link {
+  margin-left: 14px;
+  text-decoration: none;
+  font-weight: 500;
+}

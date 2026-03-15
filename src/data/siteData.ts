@@ -1,7 +1,7 @@
 import type { SiteData } from '../types'
 
 export const siteData: SiteData = {
-  name: 'Ahsan.dev',
+  name: 'Ahsan Tariq',
   headline: 'Computer Science student building software, systems, and useful tools.',
   intro:
     'I’m a Computer Science student exploring the intersection of software development and creative problem solving.',
