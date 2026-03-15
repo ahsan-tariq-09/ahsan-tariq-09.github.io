@@ -19,7 +19,6 @@ The site includes:
 
 * Personal introduction
 * Featured and complete projects
-* Blog posts about things I am learning or building
 * Contact information
 
 ---
@@ -42,7 +41,6 @@ The website is built using modern web tools:
 * Multi-page layout
 * Dark / Light mode toggle
 * Project gallery
-* Blog system using Markdown
 * Contact page with email and social links
 * Responsive layout for desktop and mobile
 * Automatic deployment using GitHub Actions
@@ -62,10 +60,6 @@ Gallery of projects I have worked on including:
 * NeurIPS Code Golf
 * KG-RAG Physio Chatbot
 * Other software and research projects
-
-### Blog
-
-Posts about development, experiments, and things I learn while building.
 
 ### Contact
 
