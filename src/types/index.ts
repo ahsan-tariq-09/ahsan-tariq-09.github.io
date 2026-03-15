@@ -40,7 +40,6 @@ export interface SiteData {
   currentWorkParagraph: string
   goals: string[]
   projects: Project[]
-  blogPosts: BlogPostMeta[]
   contacts: SocialLink[]
   
 }

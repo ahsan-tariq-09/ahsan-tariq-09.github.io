@@ -18,9 +18,6 @@ export default function HomePage() {
           <Link to="/projects" className="button primary">
             View Projects
           </Link>
-          <Link to="/blog" className="button secondary">
-            Read Blog
-          </Link>
         </div>
       </section>
 

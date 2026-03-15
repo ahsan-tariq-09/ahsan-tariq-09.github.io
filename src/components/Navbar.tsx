@@ -20,7 +20,6 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
             Home
           </NavLink>
           <NavLink to="/projects">Projects</NavLink>
-          <NavLink to="/blog">Blog</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </nav>
 

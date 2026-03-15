@@ -70,25 +70,6 @@ export const siteData: SiteData = {
     },
   ],
 
-  blogPosts: [
-    {
-      slug: 'first-post',
-      title: 'Why I’m Building This Site',
-      date: '2026-03-14',
-      summary:
-        'A short intro to why I wanted a portfolio site with a blog and project gallery.',
-      tags: ['portfolio', 'react', 'typescript'],
-    },
-    {
-      slug: 'building-in-public',
-      title: 'Building in Public as a CS Student',
-      date: '2026-03-14',
-      summary:
-        'Why documenting projects publicly is useful when you are still learning.',
-      tags: ['career', 'projects', 'learning'],
-    },
-  ],
-
   contacts: [
     { label: 'Email', url: 'mailto:atariq@knox.edu' },
     { label: 'LinkedIn', url: 'https://linkedin.com/in/ahsan-09-tariq/' },
