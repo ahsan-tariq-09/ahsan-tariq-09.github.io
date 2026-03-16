@@ -59,14 +59,20 @@ export const siteData: SiteData = {
     {
       title: 'Freshman Guidance Website',
       description:
-        'A website to help freshmen with career and course navigation and guidance at Knox College.',
-      tech: ['React', 'TypeScript', 'Planning'],
+        'A website to help freshmen with career and course navigation and guidance at Knox College. (WORK IN PROGRESS)',
+      tech: ['React', 'TypeScript', 'Python FastAPI'],
+      githubUrl:
+        'https://github.com/ahsan-tariq-09/knox-academic-career-planner',
+      featured: false,
     },
     {
       title: 'MIPS Assembly Simulator',
       description:
         'This project runs a subset of MIPS assembly directly from .asm files with labels and basic .data support.',
       tech: ['C', 'Assembly'],
+      githubUrl:
+        'https://github.com/ahsan-tariq-09/MIPS-Simulator',
+      featured: true,
     },
   ],
 
