@@ -114,6 +114,7 @@ Preview the production build:
 npm run preview
 ```
 
+You can customise and add your data in siteData.ts file in src/data. I have uploaded a template file that can get you started.
 ---
 
 # Deployment
