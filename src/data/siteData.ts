@@ -51,6 +51,15 @@ export const siteData: SiteData = {
       featured: true,
     },
     {
+      title: 'MIPS Assembly Simulator',
+      description:
+        'This project runs a subset of MIPS assembly directly from .asm files with labels and basic .data support.',
+      tech: ['C', 'Assembly'],
+      githubUrl:
+        'https://github.com/ahsan-tariq-09/MIPS-Simulator',
+      featured: true,
+    },
+    {
       title: 'Knox Makerspace Server',
       description:
         'Learning web development and systems work while contributing to Knox Makerspace-related infrastructure.',
@@ -64,15 +73,6 @@ export const siteData: SiteData = {
       githubUrl:
         'https://github.com/ahsan-tariq-09/knox-academic-career-planner',
       featured: false,
-    },
-    {
-      title: 'MIPS Assembly Simulator',
-      description:
-        'This project runs a subset of MIPS assembly directly from .asm files with labels and basic .data support.',
-      tech: ['C', 'Assembly'],
-      githubUrl:
-        'https://github.com/ahsan-tariq-09/MIPS-Simulator',
-      featured: true,
     },
   ],
 
