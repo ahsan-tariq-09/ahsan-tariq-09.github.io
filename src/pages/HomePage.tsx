@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { siteData } from '../data/siteData'
 import ProjectCard from '../components/ProjectCard'
 
+
 export default function HomePage() {
   const featuredProjects = siteData.projects.filter((project) => project.featured)
 
