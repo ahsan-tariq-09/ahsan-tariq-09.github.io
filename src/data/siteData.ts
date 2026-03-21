@@ -36,7 +36,7 @@ export const siteData: SiteData = {
       title: 'NeurIPS Code Golf',
       description:
         'Concise problem-solving in Python for ARC-AGI benchmark tasks, focused on solving problems with the fewest possible characters.',
-      tech: ['Python', 'ARC-AGI'],
+      tech: ['Python', 'ARC-AGI', 'Code Golf'],
       githubUrl:
         'https://github.com/ahsan-tariq-09/neurips-2025-google-code-golf-championship',
       featured: true,
@@ -45,7 +45,7 @@ export const siteData: SiteData = {
       title: 'KG-RAG Physio Chatbot',
       description:
         'Design and implementation of a Knowledge-Graph-Enhanced Retrieval-Augmented Chatbot System for physical therapy.',
-      tech: ['Python', 'RAG', 'Knowledge Graphs'],
+      tech: ['Python', 'RAG Pipeline', 'Knowledge Graphs'],
       githubUrl:
         'https://github.com/ahsan-tariq-09/KG-RAG-Physio-Chatbot',
       featured: true,
@@ -54,25 +54,24 @@ export const siteData: SiteData = {
       title: 'MIPS Assembly Simulator',
       description:
         'This project runs a subset of MIPS assembly directly from .asm files with labels and basic .data support.',
-      tech: ['C', 'Assembly'],
+      tech: ['C', 'MIPS Assembly'],
       githubUrl:
         'https://github.com/ahsan-tariq-09/MIPS-Simulator',
       featured: true,
-    },
-    {
-      title: 'Knox Makerspace Server',
-      description:
-        'Learning web development and systems work while contributing to Knox Makerspace-related infrastructure.',
-      tech: ['React', 'TypeScript', 'Web Development'],
     },
     {
       title: 'Freshman Guidance Website',
       description:
         'A website to help freshmen with career and course navigation and guidance at Knox College. (WORK IN PROGRESS)',
       tech: ['React', 'TypeScript', 'Python FastAPI'],
+    },
+    {
+      title: 'chronos-watches',
+      description:
+        'Chronos Watches is a full-stack luxury watch catalogue with a FastAPI backend and a React + TypeScript frontend. It includes product browsing, filtering, cart functionality, and an admin inventory panel backed by a local JSON file. The Project is currently in development and the website has not been deployed, I have added screenshots in meantime to show how it would look like.',
+      tech: ['Web Development', 'TypeScript-react', 'Python-FastAPI'],
       githubUrl:
-        'https://github.com/ahsan-tariq-09/knox-academic-career-planner',
-      featured: false,
+        'https://github.com/ahsan-tariq-09/chronos-watches',
     },
   ],
 
