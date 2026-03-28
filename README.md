@@ -97,6 +97,7 @@ The site will be available at:
 ```
 http://localhost:5173
 ```
+For Deploying this using VIte on GitHub Pages Follow instructions on https://vite.dev/guide/static-deploy#github-pages
 
 ---
 
